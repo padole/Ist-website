@@ -1,0 +1,134 @@
+*{
+	font-family: 'Montserrat', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .container-fluid a img{
+    width: 10rem;
+    height: 3rem;
+
+} */
+
+.bg-light {
+	background-color: transparent !important;
+}
+.carousel-item {
+	height: 90vh;
+	min-height: 300px;
+	bottom:  200px;
+}
+.carousel-item img{
+	top: 200px;
+}
+.carousel-caption {
+	bottom: 5px;
+	margin-top: 5rem;
+
+}
+.carousel-caption h5 {
+	font-size: 45px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-top: 25px;
+}
+.carousel-caption p {
+	width: 60%;
+	margin: auto;
+	font-size: 15px;
+	line-height: 1.5;
+}
+.carousel-caption a {
+	text-decoration: none;
+	background: transparent;
+	padding: 10px 30px;
+	display: inline-block;
+	color: #fff;
+	margin-top: 15px;
+	border: 1px solid white;
+	border-radius: 30px;
+}
+
+.carousel-caption a:hover{
+	background: rgb(161, 236, 161);
+}
+
+#taiwan{
+	color: rgb(103, 213, 103) ;
+}
+
+/* our services section */
+
+/* #icon{
+	background: black;
+} */
+
+.alternative{
+    width: 25rem;
+	text-align: center;
+	padding: 3rem;
+}
+
+.alternative span{
+	color: red;
+}
+
+.services{
+	display: flex;
+	margin: 5rem;
+}
+
+.our-services h2{
+	text-align: center;
+	margin-top: 2rem;
+}
+
+.chairman{
+	display: flex;
+}
+
+.chairman2 p{
+	width: 31rem;
+	line-height: 2rem;
+	margin-left: 5rem;
+}
+.chairman2 h2{
+	width: 27rem;
+	margin-left: 6rem;
+	text-align: center;
+	color: rgb(103, 213, 103);
+}
+
+.chairman-pix img{
+	width: 500px;
+	height: 500px;
+	padding: 5rem 5rem 2rem 5rem;
+	margin-left: 5rem;
+	margin-top: 3rem;
+}
+
+.chairman-pix h2{
+	margin-left: 10rem;
+}
+.chairman-pix h4{
+	margin-left: 13rem;
+	font-size: medium;
+}
+
+.chairman2 a{
+	text-decoration: none;
+	margin-left: 13rem;
+	border: 1px solid rgb(103, 213, 103) ;
+	border-radius: 50px;
+	color: rgb(103, 213, 103);
+	padding: 1rem 2rem 1rem 2rem;
+	
+}
+
+.chairman2 a:hover{
+	color: white;
+	background: rgb(103, 213, 103);
+}
